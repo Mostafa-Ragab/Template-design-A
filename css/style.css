@@ -4,6 +4,10 @@
   width: 1170px;
   margin: auto;
 }
+
+.clearfix {
+  clear: both;
+}
 /* End Main Rules */
 
 /* start header */
@@ -101,3 +105,26 @@
   text-align: center;
   background-color: #f2f2f2;
 }
+/* end resume */
+/* start education */
+.education {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.education .main,
+.education .exp {
+  width: 50%;
+  float: left;
+}
+/* end education */
+/* start testimonials */
+.testimonials {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+/* end testimonials */
