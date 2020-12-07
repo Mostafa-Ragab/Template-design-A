@@ -128,3 +128,39 @@
   background-color: #f2f2f2;
 }
 /* end testimonials */
+/* start portfolio */
+.portfolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.portfolio .my-work {
+  overflow: hidden;
+}
+.portfolio .my-work div {
+  width: 33.3333%;
+  float: left;
+  margin-bottom: 10px;
+}
+.portfolio .my-work > div img {
+  width: 92%;
+  margin: 10px;
+}
+/* end portfolio */
+/* start contact */
+.contact {
+  background-color: #252f31;
+  overflow: hidden;
+}
+.contact .info h2 {
+  color: #fff;
+}
+.contact p {
+  color: #6a6e71;
+}
+.contact .info,
+.contact .form {
+  float: left;
+  width: 50%;
+}
+/* end contact */
