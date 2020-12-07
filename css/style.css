@@ -37,3 +37,23 @@ body {
   float: left;
   padding: 10px;
 }
+/* End Header */
+
+/* start Features */
+.features {
+  background-color: white;
+  height: 650px;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.features .feat {
+  float: left;
+  width: 33.3333%;
+  height: 150px;
+  background: #ddd;
+}
+.features .feat h2 {
+  text-transform: uppercase;
+}
+/* End Features */
