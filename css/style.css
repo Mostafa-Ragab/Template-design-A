@@ -1,0 +1,39 @@
+/*Start main rules */
+body {
+  background-color: #888;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+/* End Main Rules */
+
+/* start header */
+.header .slider {
+  height: 600px;
+}
+.header .navbar {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+}
+.header .navbar h2 {
+  text-transform: uppercase;
+  float: left;
+}
+
+.header .navbar h2 span {
+  color: #1aa262;
+}
+
+.header .navbar ul {
+  list-style: none;
+  float: right;
+  padding-left: 0;
+}
+
+.header .navbar ul li {
+  float: left;
+  padding: 10px;
+}
