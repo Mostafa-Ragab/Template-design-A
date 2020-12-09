@@ -49,7 +49,6 @@
   overflow: hidden;
 }
 .header .navbar h2 {
-  text-transform: uppercase;
   float: left;
 }
 
@@ -83,17 +82,21 @@
 .features {
   background-color: white;
   overflow: hidden;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .features .feat {
   float: left;
   width: 33.3333%;
   height: 150px;
-  background: #ddd;
 }
 .features .feat h2 {
-  text-transform: uppercase;
+  color: #555;
+}
+.features .feat p {
+  color: #444;
+  line-height: 1.6;
+  padding: 0 20px 0 0;
 }
 /* End Features */
 /* start about me */
@@ -113,9 +116,48 @@
   float: left;
   width: 60%;
 }
+.about-me .info h2 {
+  margin: 20px 0 20px 20px;
+  color: #555;
+}
+.about-me .info p {
+  margin: 0 0 10px 40px;
+}
+.about-me .info > p:last-of-type {
+  margin-top: 25px;
+}
+.about-me .info p {
+  color: #666;
+  line-height: 1.6;
+}
 .about-me .info .hobbies {
-  margin: 20px;
+  margin: 10px 0 0 40px;
   overflow: hidden;
+}
+.about-me .content {
+  float: left;
+  width: 50%;
+  min-height: 100px;
+  overflow: hidden;
+}
+.about-me .content .icon {
+  float: left;
+  width: 12%;
+  margin-right: 5%;
+}
+.about-me .icon img {
+  margin: 25px 10px 0 0;
+  width: 100%;
+}
+.about-me .text {
+  float: left;
+  width: 83%;
+}
+.about-me .content .text p {
+  margin-top: 0;
+}
+.about-me h3 {
+  margin-bottom: 5px;
 }
 .about-me .info .hobbies > div {
   width: 50%;
