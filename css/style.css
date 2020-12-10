@@ -196,6 +196,7 @@
   margin-left: 40px;
   padding: 10px 30px;
   border: 3px solid #2dcc70;
+  font-weight: bold;
 }
 .my-skills .progress .tools {
   margin-left: 50px;
@@ -224,20 +225,84 @@
   text-align: center;
   background-color: #f2f2f2;
 }
+.resume h2 {
+  color: #333;
+}
+.resume p {
+  line-height: 1.7;
+  color: #555;
+  padding: 0 40px;
+}
+.resume button {
+  margin-top: 15px;
+  background: none;
+  color: #2dcc70;
+  border: 3px solid #2dcc70;
+  padding: 10px 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
 /* end resume */
-/* start education */
-.education {
+/* Start My Education */
+
+.my-education {
   padding-top: 30px;
   padding-bottom: 30px;
   overflow: hidden;
 }
 
-.education .main,
-.education .exp {
+.my-education hr {
+  margin: 20px 0;
+  background-color: #999;
+  height: 1px;
+  border: 0;
+}
+
+.my-education .main {
   width: 50%;
+  margin-right: 5%;
   float: left;
 }
-/* end education */
+
+.my-education .main h2 {
+  margin: 25px 0 20px 40px;
+}
+
+.my-education .main p {
+  margin: 0 0 10px 40px;
+}
+
+.my-education .main p:last-of-type {
+  margin-top: 25px;
+}
+
+.my-education .exp {
+  width: 45%;
+  float: left;
+}
+
+.my-education .exp h3 {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.my-education .exp span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.my-education .exp span:first-of-type {
+  color: #999;
+}
+
+.my-education .exp span:last-of-type {
+  background-color: #2dcc70;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 10px;
+}
+
+/* End My Education */
 /* start testimonials */
 .testimonials {
   padding-top: 30px;
