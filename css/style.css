@@ -303,15 +303,46 @@
 }
 
 /* End My Education */
-/* start testimonials */
+
+/* Start Testimonials */
+
 .testimonials {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  overflow: hidden;
-  text-align: center;
   background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-/* end testimonials */
+
+.testimonials q {
+  color: #888;
+  font: italic bold 18px/1.8 Arial, Tahoma;
+}
+
+.testimonials h3 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.testimonials ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.testimonials ul li {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #2dcc70;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.testimonials ul li.active,
+.testimonials ul li:hover {
+  background-color: #2dcc70;
+}
+
+/* End Testimonials */
+
 /* start portfolio */
 .portfolio {
   padding-top: 30px;
